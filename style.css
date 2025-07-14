@@ -949,11 +949,14 @@ ul {
 @media (max-width: 768px) {
   .btn-resume {
     margin-left: 0;
-    margin-top: 1rem;
+    margin-top: 0;
     display: block;
   }
   .home {
     padding-top: 110px;
+  }
+  .btn {
+    margin-bottom: 1rem;
   }
   
   .hamburger {
