@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash Pokharna | Portfolio</title>
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- FONT AWESOME (ICONS) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!-- ANIMATE ON SCROLL (AOS) LIBRARY -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- HEADER & NAVIGATION BAR -->
+    <header class="header">
+      <nav class="navbar">
+        <a href="#home" class="nav-logo">Yash</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME / HERO SECTION -->
+      <section class="home" id="home">
+        <div id="particles-js"></div>
+        <div class="home-content">
+          <div class="home-text" data-aos="fade-up">
+            <h1>
+              Hi There,<br />I'm Yash <span class="orange-text">Pokharna</span>
+            </h1>
+            <h2>I Am Into <span class="auto-type"></span></h2>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/yash-pokharna-959424231/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="mailto:yashpokharna2512@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+              <a href="https://github.com/yashpokharna2555" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://leetcode.com/u/yashhhhhhhhhhh/" target="_blank" aria-label="LeetCode" class="icon-img-link"><img src="assets/images/leetcode.png" alt="LeetCode" class="social-img-icon" /></a>
+              <a href="https://www.geeksforgeeks.org/user/yashpokharna2512/" target="_blank" aria-label="GeeksforGeeks" class="icon-img-link"><img src="assets/images/gfg.png" alt="GeeksforGeeks" class="social-img-icon" /></a>
+              <a href="https://www.hackerrank.com/profile/yashpokharna2512" target="_blank" aria-label="HackerRank" class="icon-img-link"><img src="assets/images/hackerrank.png" alt="HackerRank" class="social-img-icon" /></a>
+            </div>
+            <a href="#about" class="btn"
+              >About Me <i class="fa-solid fa-circle-arrow-down"></i
+            ></a>
+            <a href="https://drive.google.com/file/d/1XyBdMcmmDbe4uzyLT9jydmSs7R5Qjel7/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-resume"
+              >View Resume <i class="fa-solid fa-file-arrow-down"></i
+            ></a>
+          </div>
+          <div class="home-img" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/images/personal.png" alt="Yash Pokharna" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================== -->
+<!--  REPLACE THE OLD 'ABOUT SECTION' IN YOUR INDEX.HTML WITH THIS NEW ONE -->
+<!-- ===================================================================== -->
+
+<section class="about section" id="about">
+    <h2 class="section-title" data-aos="fade-down">About Me</h2>
+    <div class="about-container">
+        <!-- Left Column: Bio & Info -->
+        <div class="about-details">
+            <div class="about-bio" data-aos="fade-up">
+                <h3>I'm Yash, a <span class="orange-text">Full-Stack Developer</span></h3>
+                <p>
+                    I am a Master of Science student in the Department of Computer Science at Santa Clara University. I thrive in <strong>solving complex problems</strong> and enjoy working in challenging environments. I have experience in <strong>full-stack development</strong>, primarily working with the <strong>MERN (MongoDB, Express.js, React.js, Node.js) stack</strong>. In addition to my development skills, I have a strong foundation in <strong>data structures and algorithms</strong>, with extensive experience in <strong>competitive programming</strong>. I'm passionate about building <strong>scalable applications</strong>, collaborating in fast-paced projects, and continuously expanding my technical expertise.
+                </p>
+            </div>
+            <div class="about-info">
+                <div class="info-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <span>yashpokharna2512@gmail.com</span>
+                    </div>
+                </div>
+                <div class="info-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h4>Place</h4>
+                        <span>Santa Clara, California</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Quick Facts Row -->
+            <div class="quick-facts-row" data-aos="fade-up" data-aos-delay="400">
+                <div class="quick-fact-pill"><i class="fa-solid fa-code"></i> 2+ Years Coding</div>
+                <div class="quick-fact-pill"><i class="fa-brands fa-node-js"></i> MERN Stack</div>
+                <div class="quick-fact-pill"><i class="fa-solid fa-trophy"></i> Top 5% LeetCode</div>
+            </div>
+        </div>
+
+        <!-- Right Column: Education -->
+        <div class="about-education">
+            <h3 data-aos="fade-up" data-aos-delay="400"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+            <div class="education-card" data-aos="fade-up" data-aos-delay="500">
+                <h4>Master of Science - Computer Science</h4>
+                <p class="institution">Santa Clara University, Santa Clara, CA</p>
+                <p class="date">2024 - Present</p>
+                <div class="courses-list">
+                    <span class="course-pill">Design Analysis of Algorithm</span>
+                    <span class="course-pill">Distributed Systems</span>
+                    <span class="course-pill">Design Patterns</span>
+                    <span class="course-pill">Data Visualization</span>
+                </div>
+            </div>
+            <div class="education-card" data-aos="fade-up" data-aos-delay="600">
+                <h4>Bachelor of Engineering - IT</h4>
+                <p class="institution">Vishwakarma Institute of Information Technology, Pune, India</p>
+                <p class="date">2019 - 2023</p>
+                <div class="courses-list">
+                    <span class="course-pill">DSA</span>
+                    <span class="course-pill">DBMS</span>
+                    <span class="course-pill">Machine Learning</span>
+                    <span class="course-pill">Artificial Intelligence</span>
+                    <span class="course-pill">OOP</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+      <!-- ===================================================================== -->
+<!--  REPLACE THE OLD 'SKILLS SECTION' IN YOUR INDEX.HTML WITH THIS NEW ONE -->
+<!-- ===================================================================== -->
+
+<section class="skills section skills-dark-theme" id="skills">
+    <h2 class="section-title" data-aos="fade-down">My Skills</h2>
+    <div class="skills-grid-container">
+        
+        <!-- Category 1: Languages & Concepts -->
+        <div class="skill-category-card" data-aos="fade-up">
+            <h3><i class="fa-solid fa-code"></i> Languages & Concepts</h3>
+            <div class="skills-list">
+                <span class="skill-pill">C++</span>
+                <span class="skill-pill">Java</span>
+                <span class="skill-pill">Python</span>
+                <span class="skill-pill">DSA</span>
+                <span class="skill-pill">Object-Oriented Programming</span>
+                <span class="skill-pill">System Design</span>
+                <span class="skill-pill">Distributed Systems</span>
+            </div>
+        </div>
+
+        <!-- Category 2: Web Development -->
+        <div class="skill-category-card" data-aos="fade-up" data-aos-delay="100">
+            <h3><i class="fa-solid fa-laptop-code"></i> Web Development</h3>
+            <div class="skills-list">
+                <span class="skill-pill">JavaScript</span>
+                
+                <span class="skill-pill">Node.js</span>
+                <span class="skill-pill">React</span>
+                <span class="skill-pill">Express.js</span>
+                <span class="skill-pill">Next.js</span>
+                <span class="skill-pill">HTML</span>
+                <span class="skill-pill">CSS</span>
+            </div>
+        </div>
+
+        <!-- Category 3: Databases & Tools -->
+        <div class="skill-category-card" data-aos="fade-up" data-aos-delay="200">
+            <h3><i class="fa-solid fa-database"></i> Databases & Tools</h3>
+            <div class="skills-list">
+                <span class="skill-pill">SQL</span>
+                <span class="skill-pill">MongoDB</span>
+                <span class="skill-pill">PostgreSQL</span>
+                <span class="skill-pill">MySQL</span>
+                <span class="skill-pill">AWS</span>
+                <span class="skill-pill">Git</span>
+                <span class="skill-pill">CI/CD</span>
+            </div>
+        </div>
+
+        <!-- Category 4: Professional Skills -->
+        <div class="skill-category-card" data-aos="fade-up" data-aos-delay="300">
+            <h3><i class="fa-solid fa-user-gear"></i> Professional Skills</h3>
+            <div class="skills-list">
+                <span class="skill-pill">Problem Solving</span>
+                <span class="skill-pill">Communication</span>
+                <span class="skill-pill">Leadership</span>
+                <span class="skill-pill">Teamwork</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ======================================================================== -->
+<!-- REPLACE THE OLD 'EXPERIENCE SECTION' IN YOUR INDEX.HTML WITH THIS NEW ONE -->
+<!-- ======================================================================== -->
+
+<section class="experience section" id="experience">
+    <h2 class="section-title" data-aos="fade-down">Work Experience</h2>
+    <div class="timeline-container">
+        <!-- Experience 1 -->
+        <div class="timeline-item left" data-aos="fade-right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+                <div class="timeline-meta">
+                    <h4 class="company accent">Career Launch</h4>
+                    <div class="meta-row">
+                        <span class="meta-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>San Francisco Bay Area, CA</span>
+                    </div>
+                    <div class="meta-row">
+                        <span class="meta-icon"><i class="fa-solid fa-calendar"></i></span>
+                        <span>May 2025 - Present</span>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <h3 class="role">Software Engineer Intern</h3>
+                    <div class="description">
+                        <strong>Real-Time Data Processing and Visualization System:</strong> Developed a scalable cloud solution to receive, process, and visualize educational data, including MCQs, dynamically on a React frontend.
+                    </div>
+                    <div class="tech-pills-container">
+                        <span class="tech-pill">React</span>
+                        <span class="tech-pill">AWS</span>
+                        <span class="tech-pill">Node.js</span>
+                        <span class="tech-pill">Cloud Architecture</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Experience 2 -->
+        <div class="timeline-item right" data-aos="fade-left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+                <div class="timeline-meta">
+                    <h4 class="company accent">Miller's Center for Social Entrepreneurship</h4>
+                    <div class="meta-row">
+                        <span class="meta-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Santa Clara, CA</span>
+                    </div>
+                    <div class="meta-row">
+                        <span class="meta-icon"><i class="fa-solid fa-calendar"></i></span>
+                        <span>July 2025 - Present</span>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <h3 class="role">Backend Development Intern</h3>
+                    <div class="description">
+                        <ul>
+                            <li>Developed and enhanced the FastBeetle logistics platform using MySQL and RESTful APIs.</li>
+                            <li>Played a key role in architecting scalable backend solutions to drive logistics operations forward.</li>
+                            <li>Contributed to database schema design and optimized queries for real-time tracking, improving data retrieval efficiency.</li>
+                        </ul>
+                    </div>
+                    <div class="tech-pills-container">
+                        <span class="tech-pill">MySQL</span>
+                        <span class="tech-pill">REST APIs</span>
+                        <span class="tech-pill">Backend Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Experience 3 -->
+        <div class="timeline-item left" data-aos="fade-right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+                <div class="timeline-meta">
+                    <h4 class="company accent">Indexnine Technologies</h4>
+                    <div class="meta-row">
+                        <span class="meta-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Pune, India</span>
+                    </div>
+                    <div class="meta-row">
+                        <span class="meta-icon"><i class="fa-solid fa-calendar"></i></span>
+                        <span>Jan 2024 - Aug 2024</span>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <h3 class="role">Software Engineer</h3>
+                    <div class="description">
+                        <ul>
+                            <li>Developed application integrations using APIs and built ZUS (Zilla Universal Sync) for efficient data extraction.</li>
+                            <li>Implemented auto-pagination with Puppeteer to scrape multi-page data, reducing user effort by 30%.</li>
+                            <li>Built a ZUS browser extension using Node.js and Cheerio for automated data extraction.</li>
+                            <li>Designed and implemented a user-friendly dashboard with React.js and MongoDB.</li>
+                            <li>Developed secure REST APIs with JWT authentication.</li>
+                        </ul>
+                    </div>
+                    <div class="tech-pills-container">
+                        <span class="tech-pill">Node.js</span>
+                        <span class="tech-pill">React.js</span>
+                        <span class="tech-pill">MongoDB</span>
+                        <span class="tech-pill">Puppeteer</span>
+                        <span class="tech-pill">REST APIs</span>
+                        <span class="tech-pill">JWT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Experience 4 -->
+        <div class="timeline-item right" data-aos="fade-left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+                <div class="timeline-meta">
+                    <h4 class="company accent">Aspect Ratio</h4>
+                    <div class="meta-row">
+                        <span class="meta-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Pune, India</span>
+                    </div>
+                    <div class="meta-row">
+                        <span class="meta-icon"><i class="fa-solid fa-calendar"></i></span>
+                        <span>Sept 2022 - Jan 2023</span>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <h3 class="role">Software Development Intern</h3>
+                    <div class="description">
+                        <ul>
+                            <li>Developed a full-stack SQL Query Automation Tool using React.js, Flask, JavaScript, and MySQL.</li>
+                            <li>Implemented dynamic SQL generation, allowing users to build complex queries within 20 seconds.</li>
+                            <li>Designed a seamless workflow for database connection, data fetching, and CSV export functionality.</li>
+                        </ul>
+                    </div>
+                    <div class="tech-pills-container">
+                        <span class="tech-pill">React.js</span>
+                        <span class="tech-pill">Flask</span>
+                        <span class="tech-pill">JavaScript</span>
+                        <span class="tech-pill">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   
+
+<!-- ======================================================================= -->
+<!-- REPLACE THE OLD 'PROJECTS SECTION' IN YOUR INDEX.HTML WITH THIS NEW ONE -->
+<!-- ======================================================================= -->
+
+<section class="projects section" id="projects">
+    <h2 class="section-title" data-aos="fade-down">My Projects</h2>
+
+    <!-- Filter Buttons -->
+    <div class="project-filters" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="fullstack">Full Stack Development</button>
+        <button class="filter-btn" data-filter="mern">Mern Stack</button>
+        <button class="filter-btn" data-filter="reactjs">ReactJs Tailwind CSS</button>
+        <button class="filter-btn" data-filter="js">JavaScript</button>
+        <button class="filter-btn" data-filter="data-analytics">Data Analytics</button>
+        <button class="filter-btn" data-filter="java">Java</button>
+    </div>
+
+    <!-- Projects Grid Container -->
+    <div class="projects-grid-container">
+        
+        <!-- Project 1: Emotune -->
+        <div class="project-card java fullstack" data-aos="fade-up">
+            <img src="assets/images/emotune.png" alt="EmoTune Project" class="project-card-img">
+            <div class="project-card-content">
+                <h3>EmoTune: AI Music Recommender</h3>
+                <p>An AI-powered music recommender built with React, Spring Boot, and 18 design patterns.</p>
+                <div class="project-card-links">
+                    <a href="https://emotune-prod.netlify.app/" target="_blank" class="project-card-btn">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/yashpokharna2555/EmoTunes" target="_blank" class="project-card-btn">Code <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2: MediConnect -->
+        <div class="project-card mern fullstack" data-aos="fade-up" data-aos-delay="50">
+            <img src="assets/images/appointment.png" alt="MediConnect Project" class="project-card-img">
+            <div class="project-card-content">
+                <h3>MediConnect Appointment System</h3>
+                <p>A multi-panel MERN stack platform for managing doctor appointments and patient data.</p>
+                <div class="project-card-links">
+                    <a href="https://github.com/yashpokharna2555/Appointment-Management-System" target="_blank" class="project-card-btn">Code <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 3: QueryCraft -->
+        <div class="project-card mern fullstack reactjs" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/images/sql_query.png" alt="QueryCraft Project" class="project-card-img">
+            <div class="project-card-content">
+                <h3>QueryCraft: Visual SQL Builder</h3>
+                <p>A full-stack tool using React and Flask to build complex SQL queries via a drag-and-drop UI.</p>
+                <div class="project-card-links">
+                    <a href="https://github.com/yashpokharna2555/SQL_Query_Automation" target="_blank" class="project-card-btn">Code <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 4: Restaurant System -->
+        <div class="project-card lamp fullstack" data-aos="fade-up">
+            <img src="assets/images/hotel.png" alt="Restaurant System Project" class="project-card-img">
+            <div class="project-card-content">
+                <h3>Restaurant Management System</h3>
+                <p>A PHP/MySQL system for customers to order food and book rooms, with an admin panel for management.</p>
+                <div class="project-card-links">
+                    <a href="https://github.com/yashpokharna2555/restaurent-management-system" target="_blank" class="project-card-btn">Code <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 5: Library System -->
+        <div class="project-card mern fullstack" data-aos="fade-up">
+             <img src="assets/images/library.png" alt="Library System Project" class="project-card-img">
+            <div class="project-card-content">
+                <h3>Library Management System</h3>
+                <p>A MERN stack application to efficiently manage book cataloging, tracking, and user transactions.</p>
+                 <div class="project-card-links">
+                    <a href="https://github.com/yashpokharna2555/Library-Management-System" target="_blank" class="project-card-btn">Code <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 6: Student System -->
+        <div class="project-card lamp fullstack" data-aos="fade-up">
+             <img src="assets/images/student.png" alt="Student System Project" class="project-card-img">
+            <div class="project-card-content">
+                <h3>Student Management System</h3>
+                <p>A PHP-based system for admins to manage student profiles, courses, and grades.</p>
+                 <div class="project-card-links">
+                    <a href="https://github.com/yashpokharna2555/StudentManagementSystem" target="_blank" class="project-card-btn">Code <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 7: Password Generator -->
+        <div class="project-card js reactjs" data-aos="fade-up">
+             <img src="assets/images/password_generator.png" alt="Password Generator Project" class="project-card-img">
+            <div class="project-card-content">
+                <h3>Password Generator</h3>
+                <p>A simple and secure password generator built with React.js and styled with Tailwind CSS.</p>
+                 <div class="project-card-links">
+                    <a href="https://github.com/yashpokharna2555/React-Password-Generator" target="_blank" class="project-card-btn">Code <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 8: Rock Paper Scissors -->
+        <div class="project-card js" data-aos="fade-up">
+             <img src="assets/images/stone.png" alt="Rock Paper Scissors Project" class="project-card-img">
+            <div class="project-card-content">
+                <h3>Rock Paper Scissors</h3>
+                <p>The classic game built with pure JavaScript to dynamically update the UI and determine the winner.</p>
+                 <div class="project-card-links">
+                    <a href="https://github.com/yashpokharna2555/Stone_Paper_Scissor" target="_blank" class="project-card-btn">Code <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 9: Dream 11 -->
+        <div class="project-card  data-analytics" data-aos="fade-up">
+             <img src="assets/images/dream.png" alt="Dream 11 Project" class="project-card-img">
+            <div class="project-card-content">
+                <h3>Dream 11 Team of the Year</h3>
+                <p>A Python tool using Pandas to analyze player stats and create an optimal fantasy sports team.</p>
+                 <div class="project-card-links">
+                    <a href="https://github.com/yashpokharna2555/Dream_11" target="_blank" class="project-card-btn">Code <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 10: YouTube Clone -->
+        <div class="project-card js" data-aos="fade-up">
+             <img src="assets/images/youtube.png" alt="YouTube Clone Project" class="project-card-img">
+            <div class="project-card-content">
+                <h3>YouTube Clone</h3>
+                <p>A JavaScript project replicating core YouTube features like video upload, streaming, and comments.</p>
+                 <div class="project-card-links">
+                    <a href="https://github.com/yashpokharna2555/same_youtube" target="_blank" class="project-card-btn">Code <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 11: Wordle Game -->
+        <div class="project-card js" data-aos="fade-up">
+             <img src="assets/images/wordle.png" alt="Wordle Game Project" class="project-card-img">
+            <div class="project-card-content">
+                <h3>Wordle Clone</h3>
+                <p>A fun and challenging clone of the popular word-guessing game, built with pure JavaScript.</p>
+                 <div class="project-card-links">
+                    <a href="https://yashpokharna2555.github.io/wordle/" target="_blank" class="project-card-btn">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/yashpokharna2555/wordle" target="_blank" class="project-card-btn">Code <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+      <!-- CONTACT SECTION -->
+      <section class="contact section" id="contact">
+        <h2 class="section-title" data-aos="fade-down">Contact Me</h2>
+        <div class="contact-container">
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contact-form"
+            data-aos="fade-up"
+          >
+            <!-- IMPORTANT: Replace with your own Web3Forms Access Key -->
+            <input
+              type="hidden"
+              name="access_key"
+              value="2c05a06c-1ef8-4a8a-82d3-23f6e68793a9"
+            />
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" class="btn">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© 2024 Yash Pokharna. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JAVASCRIPT LIBRARIES -->
+    <!-- Typed.js for the typing animation -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Particles.js for the background animation -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- AOS - Animate on Scroll Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- CUSTOM JAVASCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
