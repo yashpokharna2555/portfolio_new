@@ -952,6 +952,9 @@ ul {
     margin-top: 1rem;
     display: block;
   }
+  .home {
+    padding-top: 110px;
+  }
   
   .hamburger {
     display: block;
